@@ -13,6 +13,5 @@ if __name__ == '__main__':
 
     # obtain 2 lowest score and find student's name with this score
     secondLowest = unique[1]
-    studentsNewList = [name for name, score in sorted(
+    [print(name) for name, score in sorted(
         studentScoreList.items()) if score == secondLowest]
-    [print(name) for name in studentsNewList]
